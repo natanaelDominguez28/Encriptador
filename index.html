@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+    <main>
+        <section>
+            <img class="logo" src="assets/img/Logo.png" alt="logo alura">
+            <div class="titulo">
+                <input type="text" id="texto" max="500" placeholder="Ingrese el texto aquí">
+            </div>
+            <div class="advertencia">
+                <p><i class="bi bi-exclamation-circle-fill"></i> Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botonera">
+                <button class="boton encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="boton" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div class="resultado">
+                <h3 id="texto-copia"></h3>
+                <img src="assets/img/Muñeco.png" alt="persona con una lupa y un diamante">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="boton copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Encriptador de Texto - realizado por Natanael Dominguez - @2024</p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+
+</html>
