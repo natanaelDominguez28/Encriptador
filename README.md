@@ -1,2 +1,5 @@
-# Encriptador
-Desafío Encriptador de Texto - Challenge Alura ONE
+# Encriptador de Texto
+Desafío Encriptador de Texto - Challenge Alura G7 ONE
+
+# Desarrollado por
+Natanael Dominguez
